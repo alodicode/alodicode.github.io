@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Warcraft;
+    src: url(fonts/LifeCraft_Font.ttf);
+   }
+
+.header{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/WorldOfWarcraft.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    height: 100vh;
+    
+    padding: 5px 0;
+    margin: 0 auto;
+         
+}
+
+
+h1{
+    font-family: Warcraft;
+    font-size: 50px;
+    color: white;
+    display: block;
+    margin-right: 50px;
+    font-weight: 100;    
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.logo_span1{
+    color: #715a57;
+}
+.logo_span2{
+    color: #7a5c38;
+}
+.logo_span3{
+    color: #b34f0e;
+}
+
+
+
+.pictures{
+    display: flex;
+    justify-content: space-between
+}
+
+.pictures1{
+    width: 280px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(images/witcher.jpg);
+    background-size: cover;
+}
+.pictures2{
+    width: 280px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(images/assasin.jpg);
+    background-size: cover;
+    
+}
+.pictures3{
+    width: 280px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(images/heroes.jpg);
+    background-size: cover;
+    
+}
+
+
+.text{
+    padding-top: 15px;
+    font-size: 18px;
+    color: #b0813b;
+    text-align: center;
+    font-family: Warcraft;
+
+}
+
+
